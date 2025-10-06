@@ -314,7 +314,7 @@ export const ReminderModal: React.FC<ReminderModalProps> = ({
             </Text>
           </Pressable>
           <Text style={styles.headerTitle}>
-            {reminder ? 'Редактировать' : 'Новое напоминание'}
+            {reminder ? 'Редактировать' : 'Новое\nнапоминание'}
           </Text>
           <Pressable 
             style={[styles.saveButton, isSaving && styles.disabledButton]} 
