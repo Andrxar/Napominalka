@@ -1,0 +1,20 @@
+
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "autoIncrement": true,
+      "platform": "android"
+    },
+    "preview": {
+      "distribution": "internal",
+      "autoIncrement": true,
+      "platform": "android"
+    },
+    "production": {
+      "autoIncrement": true,
+      "platform": "android"
+    }
+  }
+}
