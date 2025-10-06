@@ -28,10 +28,7 @@
         "USE_FULL_SCREEN_INTENT",
         "SCHEDULE_EXACT_ALARM",
         "USE_EXACT_ALARM"
-      ],
-      "compileSdkVersion": 34,
-      "targetSdkVersion": 34,
-      "minSdkVersion": 21
+      ]
     },
     "plugins": [
       "expo-font",
