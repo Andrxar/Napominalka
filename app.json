@@ -53,12 +53,5 @@
     "extra": {
       "router": {}
     }
-  },
-  "build": {
-    "production": {
-      "android": {
-        "buildType": "apk"
-      }
-    }
   }
 }
