@@ -7,7 +7,9 @@
     "icon": "./assets/images/natively-dark.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "splash": {
       "image": "./assets/images/natively-dark.png",
       "resizeMode": "contain",
@@ -39,7 +41,9 @@
           "icon": "./assets/images/natively-dark.png",
           "color": "#4A90E2",
           "defaultChannel": "reminders",
-          "sounds": ["./assets/sounds/notification.wav"]
+          "sounds": [
+            "./assets/sounds/notification.wav"
+          ]
         }
       ]
     ],
@@ -48,7 +52,10 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "be64cf84-f0ab-4156-8f97-33f18d8cf96b"
+      }
     }
   }
 }
